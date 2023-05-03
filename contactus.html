@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+</head>
+<body>
+	<header>
+		<h1>Contact Us</h1>
+	</header>
+
+    <nav>
+        <div class="topnav">
+            <a href="index1.html">Home</a>
+            <a href="aboutus.html";>About Us</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="colab.html">Colaboration</a>
+          </div>
+    </nav>
+	<main>
+		<section>
+			<h2>Get In Touch</h2>
+			<form action="submit-form.php" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="subject">Subject:</label>
+				<input type="text" id="subject" name="subject" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+		<section>
+			<h2>Contact Details</h2>
+			<p>If you prefer to contact us through other means, you can use the following information:</p>
+			<ul>
+				<li>Email: raseshchandrayan@gmail.com</li>
+				<li>Phone: 0542-2618201</li>
+				<li>Address: Varanasi, Uttar Pradesh 221007</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Our Company. All rights reserved.</p>
+	</footer>
+
+    <style>
+        body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+section h2 {
+	margin-top: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form label {
+	display: block;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+form textarea {
+	height: 150px;
+	resize: none;
+}
+
+form button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+	background-color: #666;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #666;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 14px ;
+  padding-bottom: 14px ;
+  text-decoration: none;
+  width: 25%;
+}
+
+.topnav a:hover {
+  background-color: #9eb3b33a;
+  color: black;
+}
+
+    </style>
+</body>
+</html>
